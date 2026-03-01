@@ -6,7 +6,7 @@ Tạo website Landing Page giới thiệu sản phẩm nhóm và tích hợp AI 
 ## Tóm tắt Ý tưởng & Công nghệ
 - **Mô hình Website**: Landing Page (Trang đơn cuốn chiếu) gồm đầy đủ các mục: Giới thiệu chung, Tính năng nổi bật, Hướng dẫn sử dụng.
 - **Công nghệ Frontend**: Nên sử dụng Vite + React + TailwindCSS (hoặc chỉ HTML/Tailwind) để giao diện hiện đại, mượt mà và dễ responsive.
-- **Công nghệ AI Chatbot**: Thay vì code AI từ đầu tốn kém, tôi đề xuất dùng **Coze**, **Chatbase** hoặc **Dialogflow**. Ta sẽ tạo một agent trên đó, cấp dữ liệu về sản phẩm, sau đó lấy đoạn mã nhúng (Embed Script/Iframe) dán vào web. Khung chat sẽ hiển thị dạng bong bóng (Floating Widget) ở góc phải dưới màn hình.
+- **Công nghệ AI Chatbot**: Thay vì code AI từ đầu tốn kém, tôi đề xuất dùng **Google Gemini**, **Chatbase** hoặc **Dialogflow**. Ta sẽ tạo một agent trên đó, cấp dữ liệu về sản phẩm, sau đó lấy đoạn mã nhúng (Embed Script/Iframe) dán vào web. Khung chat sẽ hiển thị dạng bong bóng (Floating Widget) ở góc phải dưới màn hình.
 - **Triển khai (Hosting)**: Vercel hoặc Netlify (miễn phí, nhanh, có chứng chỉ bảo mật HTTPS, uy tín khi gửi link cho giảng viên).
 - **Tạo Mã QR**: Dùng thư viện mã nguồn mở hoặc web tạo QR miễn phí trỏ về link Vercel.
 
